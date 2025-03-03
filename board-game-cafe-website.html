@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boards & Brews - Board Game Cafe</title>
+    <style>
+        :root {
+            --primary-dark: #5D4037;
+            --primary: #8B6E4F;
+            --secondary: #D7CCC8;
+            --accent: #556b37;
+            --accent-light: #7b8d40;
+            --light: #F5EFE6;
+            --background: #FFFBF5;
+            --text: #3E2723;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Futura', 'Century Gothic', sans-serif;
+        }
+        
+        body {
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--primary-dark);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 15px 0;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            text-decoration: none;
+            text-align: center;
+            line-height: 1.2;
+        }
+        
+        .logo-title {
+            color: var(--secondary);
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        
+        .logo-subtitle {
+            color: var(--accent-light);
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        
+        .nav-link {
+            text-decoration: none;
+            color: var(--secondary);
+            font-weight: 500;
+            transition: color 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+        
+        .nav-link:hover {
+            color: var(--accent);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--secondary);
+        }
+        
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background-color: var(--light);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.15;
+            z-index: 0;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: var(--primary-dark);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .hero h1::after {
+            content: '';
+            position: absolute;
+            width: 60%;
+            height: 4px;
+            background-color: var(--accent);
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        .hero-tagline {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background-color: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+        }
+        
+        .btn:hover {
+            background-color: var(--accent-light);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(76, 175, 80, 0.4);
+        }
+        
+        .btn-large {
+            font-size: 1.2rem;
+            padding: 18px 40px;
+        }
+        
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            position: relative;
+            padding-bottom: 15px;
+            color: var(--primary-dark);
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .about {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .about-image {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+        .about-image::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--accent) 0%, rgba(255,152,0,0) 50%);
+            opacity: 0.5;
+            z-index: 1;
+        }
+        
+        .about-image img {
+            width: 100%;
+            display: block;
+            transition: transform 0.5s;
+        }
+        
+        .about-image:hover img {
+            transform: scale(1.05);
+        }
+        
+        .about-content {
+            flex: 1;
+        }
+        
+        .about-content h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: var(--primary-dark);
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .about-content h2::after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent);
+            bottom: 0;
+            left: 0;
+        }
+        
+        .about-content p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .feature-tiles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 60px;
+        }
+        
+        .feature-tile {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .feature-tile::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background-color: var(--accent);
+        }
+        
+        .feature-tile:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-tile i {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        
+        .feature-tile h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+        
+        .feature-tile p {
+            color: #666;
+        }
+        
+        .mobile-cta {
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 99;
+            display: none;
+        }
+        
+        .btn-mobile {
+            background-color: var(--accent);
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 15px 30px;
+            border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+            display: inline-block;
+            text-decoration: none;
+            letter-spacing: 1px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 6px 16px rgba(76, 175, 80, 0.6);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+            }
+        }
+        
+        .menu-container {
+            background-color: var(--light);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .menu-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .menu-tab {
+            padding: 12px 30px;
+            background-color: var(--secondary);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            color: var(--primary-dark);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+        
+        .menu-tab.active, .menu-tab:hover {
+            background-color: var(--accent);
+            color: white;
+            box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+            transform: translateY(-3px);
+        }
+        
+        .menu-content {
+            display: none;
+        }
+        
+        .menu-content.active {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .menu-card {
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+        
+        .menu-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 50px 50px 0;
+            border-color: transparent var(--accent) transparent transparent;
+            transition: transform 0.3s;
+        }
+        
+        .menu-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .menu-card:hover::after {
+            transform: scale(1.1);
+        }
+        
+        .menu-category {
+            background-color: var(--primary-dark);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .menu-items {
+            padding: 20px;
+        }
+        
+        .menu-item {
+            padding: 15px 0;
+            border-bottom: 1px dashed #eee;
+        }
+        
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        
+        .menu-item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        
+        .menu-item-name {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+        }
+        
+        .menu-item-price {
+            font-weight: 600;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+        
+        .menu-item-desc {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        
+        .menu-item-options {
+            display: flex;
+            gap: 15px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .menu-item-option {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .menu-note {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .game-collection {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .game-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .game-image {
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .game-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .game-card:hover .game-image img {
+            transform: scale(1.1);
+        }
+        
+        .game-content {
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .game-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: var(--primary-dark);
+        }
+        
+        .game-category {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .game-difficulty {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        
+        .difficulty-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 0 3px;
+        }
+        
+        .difficulty-dot.active {
+            background-color: var(--accent);
+        }
+        
+        .game-players {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .gallery-item {
+            border-radius: 10px;
+            overflow: hidden;
+            height: 250px;
+            position: relative;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(93, 64, 55, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+        
+        .gallery-text {
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .gallery-text h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .contact-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .contact-card::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            background-color: var(--accent);
+            top: 0;
+            left: 0;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .contact-card i {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        
+        .contact-card h3 {
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+        
+        .contact-card p, .contact-card a {
+            color: #666;
+            text-decoration: none;
+        }
+        
+        .contact-card a:hover {
+            color: var(--accent);
+        }
+        
+        .game-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .game-icon {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        
+        .game-icon img {
+            width: 60%;
+            height: 60%;
+            object-fit: contain;
+        }
+        
+        .game-icon:hover {
+            transform: translateY(-5px) rotate(10deg);
+            background-color: var(--accent-light);
+        }
+        
+        footer {
+            background-color: var(--primary-dark);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+            color: var(--secondary);
+        }
+        
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background-color: var(--accent);
+        }
+        
+        .footer-column p {
+            margin-bottom: 15px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-block;
+        }
+        
+        .footer-links a:hover {
+            color: var(--accent);
+            transform: translateX(5px);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background-color: var(--accent);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+        }
+        
+        .dice-decoration {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent);
+            border-radius: 8px;
+            opacity: 0.2;
+            z-index: 0;
+            animation: floatAnimation 8s infinite ease-in-out;
+        }
+        
+        @keyframes floatAnimation {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-20px) rotate(180deg);
+            }
+            100% {
+                transform: translateY(0) rotate(360deg);
+            }
+        }
+        
+        /* 3D Dice Animation */
+        .dice-container {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            z-index: 0;
+            -webkit-perspective: 800px;
+            perspective: 800px;
+            pointer-events: none;
+        }
+        
+        .dice {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            animation: spin 12s infinite linear;
+        }
+        
+        .dice-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: var(--primary);
+            border: 2px solid var(--primary-dark);
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: var(--light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.8;
+            box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+            backface-visibility: hidden;
+        }
+        
+        .dice-face.one {
+            transform: rotateX(90deg) translateZ(40px);
+        }
+        
+        .dice-face.two {
+            transform: translateZ(40px);
+        }
+        
+        .dice-face.three {
+            transform: rotateY(90deg) translateZ(40px);
+        }
+        
+        .dice-face.four {
+            transform: rotateY(180deg) translateZ(40px);
+        }
+        
+        .dice-face.five {
+            transform: rotateY(-90deg) translateZ(40px);
+        }
+        
+        .dice-face.six {
+            transform: rotateX(-90deg) translateZ(40px);
+        }
+        
+        /* Dice dots styling */
+        .dice-dots {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .dot {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: var(--light);
+            border-radius: 50%;
+        }
+        
+        /* Dots for face one */
+        .one .dot {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        /* Dots for face two */
+        .two .dot:nth-child(1) {
+            top: 25%;
+            left: 25%;
+        }
+        
+        .two .dot:nth-child(2) {
+            bottom: 25%;
+            right: 25%;
+        }
+        
+        /* Dots for face three */
+        .three .dot:nth-child(1) {
+            top: 25%;
+            left: 25%;
+        }
+        
+        .three .dot:nth-child(2) {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .three .dot:nth-child(3) {
+            bottom: 25%;
+            right: 25%;
+        }
+        
+        /* Dots for face four */
+        .four .dot:nth-child(1) {
+            top: 25%;
+            left: 25%;
+        }
+        
+        .four .dot:nth-child(2) {
+            top: 25%;
+            right: 25%;
+        }
+        
+        .four .dot:nth-child(3) {
+            bottom: 25%;
+            left: 25%;
+        }
+        
+        .four .dot:nth-child(4) {
+            bottom: 25%;
+            right: 25%;
+        }
+        
+        /* Dots for face five */
+        .five .dot:nth-child(1) {
+            top: 25%;
+            left: 25%;
+        }
+        
+        .five .dot:nth-child(2) {
+            top: 25%;
+            right: 25%;
+        }
+        
+        .five .dot:nth-child(3) {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .five .dot:nth-child(4) {
+            bottom: 25%;
+            left: 25%;
+        }
+        
+        .five .dot:nth-child(5) {
+            bottom: 25%;
+            right: 25%;
+        }
+        
+        /* Dots for face six */
+        .six .dot:nth-child(1) {
+            top: 25%;
+            left: 25%;
+        }
+        
+        .six .dot:nth-child(2) {
+            top: 25%;
+            right: 25%;
+        }
+        
+        .six .dot:nth-child(3) {
+            top: 50%;
+            left: 25%;
+            transform: translateY(-50%);
+        }
+        
+        .six .dot:nth-child(4) {
+            top: 50%;
+            right: 25%;
+            transform: translateY(-50%);
+        }
+        
+        .six .dot:nth-child(5) {
+            bottom: 25%;
+            left: 25%;
+        }
+        
+        .six .dot:nth-child(6) {
+            bottom: 25%;
+            right: 25%;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotateY(0) rotateX(0) rotateZ(0); }
+            100% { transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg); }
+        }
+        
+        /* Different animation speeds and directions for each dice */
+        .dice-container:nth-child(1) .dice {
+            animation: spin 12s infinite linear;
+        }
+        
+        .dice-container:nth-child(2) .dice {
+            animation: spin 15s infinite linear reverse;
+        }
+        
+        .dice-container:nth-child(3) .dice {
+            animation: spin 18s infinite linear;
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .nav-menu {
+                position: fixed;
+                top: 70px;
+                left: -100%;
+                flex-direction: column;
+                background-color: white;
+                width: 100%;
+                padding: 20px;
+                gap: 15px;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                transition: left 0.3s;
+                z-index: 99;
+            }
+            
+            .nav-menu.active {
+                left: 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .about {
+                flex-direction: column;
+            }
+            
+            .section {
+                padding: 60px 0;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .menu-content.active {
+                grid-template-columns: 1fr;
+            }
+            
+            .mobile-cta {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-title">Boards & Brews</div>
+                    <div class="logo-subtitle">by TD</div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#games" class="nav-link">Games</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn">☰</button>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="dice-container" style="top: 20%; left: 15%;">
+            <div class="dice">
+                <div class="dice-face one">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face two">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face three">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face four">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face five">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face six">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dice-container" style="top: 60%; left: 80%;">
+            <div class="dice">
+                <div class="dice-face one">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face two">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face three">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face four">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face five">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face six">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dice-container" style="top: 80%; left: 30%;">
+            <div class="dice">
+                <div class="dice-face one">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face two">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face three">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face four">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face five">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="dice-face six">
+                    <div class="dice-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <h1>BOARDS & BREWS</h1>
+            <p class="hero-tagline">Eat | Play | Relax</p>
+            <p>A unique board game café experience with delicious food, great drinks, and hundreds of games!</p>
+            <a href="#menu" class="btn btn-large">View Our Menu</a>
+        </div>
+    </section>
+    
+    <div class="mobile-cta">
+        <a href="#menu" class="btn-mobile">View Menu</a>
+    </div>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about">
+                <div class="about-image">
+                    <img src="/api/placeholder/600/400" alt="Board Game Cafe Interior">
+                </div>
+                <div class="about-content">
+                    <h2>Where Games & Good Food Unite</h2>
+                    <p>Welcome to Boards & Brews, your one-stop destination for board games, delicious food, and a great atmosphere! We've created a unique space where friends and families can come together to enjoy hundreds of board games while savoring tasty meals and drinks.</p>
+                    <p>Our café features a carefully curated collection of classic favorites and the latest board games that you can play while enjoying our menu of savory dishes, pizzas, snacks, specialty coffees, and more!</p>
+                    <a href="#games" class="btn">Explore Our Games</a>
+                </div>
+            </div>
+            
+            <div class="feature-tiles">
+                <div class="feature-tile">
+                    <i>🎲</i>
+                    <h3>300+ Games</h3>
+                    <p>Access to hundreds of board games from classics to the newest releases</p>
+                </div>
+                <div class="feature-tile">
+                    <i>🍕</i>
+                    <h3>Delicious Food</h3>
+                    <p>Enjoy our menu of pastas, pizzas, and snacks while you play</p>
+                </div>
+                <div class="feature-tile">
+                    <i>🍵</i>
+                    <h3>Great Drinks</h3>
+                    <p>Specialty coffees, teas, and non-alcoholic beverages to fuel your gaming</p>
+                </div>
+                <div class="feature-tile">
+                    <i>🌿</i>
+                    <h3>Cozy Atmosphere</h3>
+                    <p>A warm, inviting space designed for comfort and fun</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="menu" class="section" style="background-color: var(--light);">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="food">Food</button>
+                <button class="menu-tab" data-tab="drinks">Drinks</button>
+            </div>
+            
+            <div class="menu-container">
+                <div id="food" class="menu-content active">
+                    <div class="menu-card">
+                        <div class="menu-category">PASTA</div>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <div class="menu-item-name">Smoked Duck Alfredo</div>
+                                    <div class="menu-item-price">27</div>
+                                </div>
+                                <div class="menu-item-desc">Tender smoked duck in creamy Alfredo sauce with cheesy Parmesan and a hint of black pepper.</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <div class="menu-item-name">Smoked Duck Aglio Olio</div>
+                                    <div class="menu-item-price">25</div>
+                                </div>
+                                <div class="menu-item-desc">Tender smoked duck sautéed with garlic, chili flakes, and black pepper topped with fresh parsley.</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-header">
+                                    <div class="menu-item-name">Smoked Duck Pesto</div>
+                                    <div class="menu-item-price">26</div>
+                                </div>
+                                <div class="menu-item-desc">Tender

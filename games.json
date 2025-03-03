@@ -1,0 +1,1381 @@
+[
+  {
+    "GAME NAME": "5 Minute Dungeon",
+    "GAME CATEGORY": "Cooperative",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "7 Wonders",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-7",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Agricola Family Edition",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Agricola Revised Edition",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Arboretum",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Architecs",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Ascension Storm Of Souls",
+    "GAME CATEGORY": "Deck building",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Azul",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Azul: Stained Glass of Sintra",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Banana Bandits",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Banangrams",
+    "GAME CATEGORY": "Word game",
+    "NO. OF PLAYERS": "1-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Bang!",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "4-7",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Betrayal Of The House On The Hill",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Black Sheep",
+    "GAME CATEGORY": "Family, Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Boy And Pig",
+    "GAME CATEGORY": "Duel",
+    "NO. OF PLAYERS": "2",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Break The Code",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Capital Lux Generations 2",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Carcassonne",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Cards Against Humanity",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "4-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Cascadia",
+    "GAME CATEGORY": "Puzzle, Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Catan (5th Edition)",
+    "GAME CATEGORY": "Trading, Competitive, Strategy",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Catan Dice Game",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Catan: 5-6 Player Extension (5th Edition)",
+    "GAME CATEGORY": "Trading, Competitive, Strategy",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Chain Geometry",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Chess And Checkers Set",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Chope!",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Circus Break",
+    "GAME CATEGORY": "Memory",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Citadels",
+    "GAME CATEGORY": "Competitive, Deception",
+    "NO. OF PLAYERS": "2-7",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Cloud Age",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Cluedo The Classic Detective Game",
+    "GAME CATEGORY": "Deduction, Family",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Cluedo The Classic Mystery Game",
+    "GAME CATEGORY": "Deduction, Family",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Codenames (Malaysia Edition)",
+    "GAME CATEGORY": "Teams, Party",
+    "NO. OF PLAYERS": "2-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Coup",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Coup Rebellion",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Cranium",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "4-12",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "CS-Files/Deception: Murder in Hong Kong \u72af\u7f6a\u73fe\u5834",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "4-12",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Dancing Queen",
+    "GAME CATEGORY": "Duel",
+    "NO. OF PLAYERS": "2",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Dead Of Winter: The Long Night",
+    "GAME CATEGORY": "Cooperative, Deduction",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Deckscape Curse Of The Sphinx Kings And Peasant",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Deckscape Escape From Alcatraz",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Decrypto",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Decrypto: Expansion #01 - Laserdrive",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Deep Sea Adventures",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Dixit",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "3-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Dominion",
+    "GAME CATEGORY": "Competitive, Deck building",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Drama Pukul 7",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Drunk Society",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2+",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Duel",
+    "GAME CATEGORY": "Competitive, Duel, Strategy",
+    "NO. OF PLAYERS": "2",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Dune",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Dungeon Mayhem + Baldurs Gate (Expansion Pack)",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Dungeon Mayhem: Monster Madness",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Durian",
+    "GAME CATEGORY": "Party, Deduction",
+    "NO. OF PLAYERS": "2-7",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Elder Sign",
+    "GAME CATEGORY": "Cooperative",
+    "NO. OF PLAYERS": "1-8",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Exit The Game (Dead Man On The Orient Express)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Exit The Game (The Mysterious Musuem)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Exit The Game (The Secret Lab)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Exit The Game (The Sinister Mansion)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Exit The Game (The Sunken Treasure)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Exit The Game (Theft On The Mississippi)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Exploding Kittens: NSFW Edition",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Fantastic Factories",
+    "GAME CATEGORY": "Family, Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Fantastiqa Enchanted Edition",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Fjords",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Flash Point",
+    "GAME CATEGORY": "Strategy, Cooperative",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Forbidden Island",
+    "GAME CATEGORY": "Cooperative",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Furmation of Rome",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Geistesblitz 2.0",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Gold Rush Challenge",
+    "GAME CATEGORY": "Competitive, Memory",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Guillotine",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Hanabi",
+    "GAME CATEGORY": "Cooperative",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Here to Slay",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Hibachi",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Hibachi: Hot And Spicy",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Horrified American Monsters",
+    "GAME CATEGORY": "Cooperative",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "HR",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "I Have The Numbers",
+    "GAME CATEGORY": "Deception",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Incognito",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Infinity Gauntlet: A Love Letter Game",
+    "GAME CATEGORY": "Duel",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Jamaica",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Jenga Octagon",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "1-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Joking Hazard",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "3-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Jumbo Playing Cards",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Kantin Wars",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "4-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Katamino",
+    "GAME CATEGORY": "Cooperative, Puzzle",
+    "NO. OF PLAYERS": "1-2",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Kemet",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "King Of Tokyo",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "King Of Tokyo: Dark Edition",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Knights And Rebels",
+    "GAME CATEGORY": "Duel",
+    "NO. OF PLAYERS": "2",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Kopi King",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Krosmaster Arena",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Last Message",
+    "GAME CATEGORY": "Party, Deduction",
+    "NO. OF PLAYERS": "3-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Lords Of Vegas",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Magic Maze",
+    "GAME CATEGORY": "Cooperative",
+    "NO. OF PLAYERS": "1-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Mahjong (Cards)",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "3-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Mahjong (Physical)",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "3-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Monopoly Deal",
+    "GAME CATEGORY": "Competitive, Party",
+    "NO. OF PLAYERS": "2-3",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Monopoly Dungeon And Dragons Edition",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Monopoly: Malaysian Edition",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Monopoly: The World Edition",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Mr.Jack",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "2",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Munchkin Fu",
+    "GAME CATEGORY": "Competitive, Roleplay",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Munhchkin",
+    "GAME CATEGORY": "Competitive, Roleplay",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Munhkin Zombies",
+    "GAME CATEGORY": "Competitive, Roleplay",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Mysterium",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "2-7",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Nasi Lemak",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "No Thanks",
+    "GAME CATEGORY": "Strategy, Gateway",
+    "NO. OF PLAYERS": "3-7",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Nurts Parenting Made Fun",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "One Night Ultimate Werewolf (Chinese)",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "One Night Ultimate Werewolf (Daybreak)",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "One Night Ultimate Werewolf (English)",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Pandemic",
+    "GAME CATEGORY": "Cooperative, Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Pandemic Cthulhu",
+    "GAME CATEGORY": "Cooperative, Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Pandemic Cthulhu",
+    "GAME CATEGORY": "Cooperative, Strategy",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Pathfinders Adventure Card Game Rise Of The Runelords",
+    "GAME CATEGORY": "Campaign",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Photosynthesis",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Pick Your Poison",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "3-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Pick Your Poison: Expansion",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "3-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Pictionary (Junior)",
+    "GAME CATEGORY": "Party, Family",
+    "NO. OF PLAYERS": "3-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Pictomania",
+    "GAME CATEGORY": "Party, Family",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Point Salad",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Politiko",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Politiko (Borneo Expansion)",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Regular Jenga",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "1-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Revive",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Rising Sun",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "3-5",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Risk Global Domination",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Risk World Conquest",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Roll Player",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Roll Player Monsters And Minions",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Root The Game Of Woodland Might And Right",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Root The Riverfolk Expansion",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Runes And Regulations",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Saboteur 1",
+    "GAME CATEGORY": "Competitive, Deduction",
+    "NO. OF PLAYERS": "3-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Saboteur 2",
+    "GAME CATEGORY": "Competitive, Deduction",
+    "NO. OF PLAYERS": "2-12",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "San Guo Sha: Tomb of Cao Cao",
+    "GAME CATEGORY": "Memory, Campaign",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Sanguosha",
+    "GAME CATEGORY": "Competitive, Deception",
+    "NO. OF PLAYERS": "2-8",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Scout",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Scrabble",
+    "GAME CATEGORY": "Word game",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Scythe",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Sequence",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "2-12",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Serial Killer",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "5-50",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Shadow Hunters",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "4-8",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Sheepy Time",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Sheriff Of Notingham 2nd Edition",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Sherlock Holmes Consulting Detective",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "1-8",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Small World",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Smash Up (The Big Geeky Box)",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Spicy",
+    "GAME CATEGORY": "Deception",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Splendor",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Splendor Marvel",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Spyfall",
+    "GAME CATEGORY": "Deception",
+    "NO. OF PLAYERS": "3-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Steam Up: A Feast of Dim Sum",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Stick Stack",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-99",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Story Cubes",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "1-12",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Story Cubes Actions",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "1-12",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Taboo",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "4-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Take 6",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Takenoko",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Tapestry",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Terraforming Mars",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Texas Hold'Em Poker Set",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "The Castles Of Burgandy",
+    "GAME CATEGORY": "Strategy",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "The Lepak Game",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "4-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "The Malaysian Dream",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "The Message",
+    "GAME CATEGORY": "Deduction, Cooperative, Teams",
+    "NO. OF PLAYERS": "3-9",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "The Resistance: Avalon",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "5-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "The Vale of Eternity",
+    "GAME CATEGORY": "Strategy, Family",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "These Cards Will Get You Drunk",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Ticket To Ride Europe Edition",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Tiny Epic Quests",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "1-4",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Tofu Kingdom",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Tokaido: 5th Anniversary Edition",
+    "GAME CATEGORY": "Family",
+    "NO. OF PLAYERS": "2-5",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Unlock! Game Adventures",
+    "GAME CATEGORY": "Cooperative",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Unlock! Secret Adventures (A Noside Story)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Unlock! Secret Adventures (Squeek And Sausage)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Unlock! Secret Adventures (The Adventures Of Oz)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Unlock! Secret Adventures (The Tonipals Treasure)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Unlock! Secret Adventures (Tombstone Express)",
+    "GAME CATEGORY": "Escape",
+    "NO. OF PLAYERS": "1-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Uno",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Uno (Metal Box)",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Uno: Mario Edition",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Uno: No Mercy",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Unstable Unicorns: NSFW Base Game",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "2-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "V-Virus",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "4-8",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "War of Tarot \u543e\u738b",
+    "GAME CATEGORY": "Deck building, Strategy, Deduction",
+    "NO. OF PLAYERS": "2-4",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "War Of Three Kingdoms (Wtk)",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "2-10",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Wavelength",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "2-12",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Werewolf (Chinese Version)",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "3-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Werewords",
+    "GAME CATEGORY": "Deduction",
+    "NO. OF PLAYERS": "4-10",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Western Legends",
+    "GAME CATEGORY": "Competitive",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Hard",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "What Do You Meme?",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "3-20",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Wingspan",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Wingspan Oceania Expansion",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Wyrmspan",
+    "GAME CATEGORY": "Competitive, Strategy",
+    "NO. OF PLAYERS": "1-5",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Yellow Cards \u9ec3\u724c(\u83ef\u8a9e/\u53f0\u7063\u7248)",
+    "GAME CATEGORY": "Party",
+    "NO. OF PLAYERS": "4-10+",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "No"
+  },
+  {
+    "GAME NAME": "Zebra Puzzle \u6591\u99ac\u731c\u731c",
+    "GAME CATEGORY": "Puzzle",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Easy",
+    "FAMILY FRIENDLY": "Yes"
+  },
+  {
+    "GAME NAME": "Zodiac Go!",
+    "GAME CATEGORY": "Competitive, Strategy, Memory",
+    "NO. OF PLAYERS": "2-6",
+    "DIFFICULTY": "Medium",
+    "FAMILY FRIENDLY": "Yes"
+  }
+]
